@@ -12,8 +12,7 @@ while(ch != 0):
                 if(ch==4):
                         if(num2!=0):
                                 print(num1," ","/"," ",num2," ","="," ",num1/num2)
-                        else:
-                                print("Cannot be divisible")
+                        
                 print("\n        ******        \n")
 
                 ch = int(input("Enter\n 0 -> exit\n 1 -> Add\n 2 -> Subtract\n 3 -> Multiply\n 4 -> Divide\n >>"))
